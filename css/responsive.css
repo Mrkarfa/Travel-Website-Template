@@ -1,0 +1,140 @@
+@media (max-width:1300px){
+
+
+}
+@media (max-width:1290px){
+   
+
+}
+@media (max-width:1230px){
+   
+}
+@media (max-width:1070px){
+   
+}
+@media (max-width:991px){
+   /* -----for ipad view------ */
+   .nav_wrapper .navbar .navbar-nav .nav-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+   .nav_wrapper .navbar .navbar-toggler:focus{
+      box-shadow: none;
+   }
+   .about_wrapper .about_title{
+      font-family: var(--secondary-font);
+      font-size: 35px;
+      font-weight: 800;
+      color: var(--text-dark-grey);
+      line-height: 1.5;
+      text-transform: uppercase;
+      word-spacing: 1px;
+  }
+  .about_wrapper .about_para{
+      font-family: var(--third-font);
+      font-size: 10px;
+      font-weight: 300;
+      color: var(--text-dark-grey);
+  }
+
+  .company_wrapper .company_name{
+   font-size: 1.5rem;
+   font-weight: 800;
+   font-family: var(--secondery-font);
+   line-height: 1;
+   word-spacing: 0%;
+   text-transform: capitalize;
+}
+
+.feature_wrapper{
+   width: 100%;
+   height: auto;
+   min-height: 10vh;
+}
+.feature_wrapper i{
+   font-size: 2rem;
+   color: var(--text-light);
+}
+.feature_wrapper h3{
+   font-size: 10px;
+   color: var(--text-light);
+}
+}
+@media (max-width:768px){
+   /* -------for mobile view------- */
+   .nav_wrapper .navbar .navbar-toggler:focus{
+      box-shadow: none;
+   }
+   .banner_wrapper .banner_text{
+      font-family: var(--secondary-font);
+      font-size: 60px;
+      font-weight: 600;
+      color: var(--text-light);
+      line-height: 1;
+      text-transform: uppercase;
+      word-spacing: 1px;
+  }
+  .banner_wrapper .banner_text span{
+      color: var(--text-perple);
+  }
+  .banner_wrapper .banner_para{
+      font-family: var(--third-font);
+      font-size: 15px;
+      font-weight: 300;
+      color: var(--text-light);
+  }
+  .destination_wrapper .why_title{
+   font-family: var(--secondary-font);
+   font-size: 45px;
+   font-weight: 600;
+   color: var(--text-dark-grey);
+   line-height: 1.5;
+   text-transform: uppercase;
+   word-spacing: 1px;
+}
+.feature_wrapper i{
+   font-size: 2.5rem;
+   color: var(--text-light);
+}
+.feature_wrapper h3{
+   font-size: 15px;
+   color: var(--text-light);
+}
+.testimonial_wrapper .why_title{
+   font-family: var(--secondary-font);
+   font-size: 30px;
+   font-weight: 800;
+   color: var(--text-dark-grey);
+   line-height: 1.5;
+   text-transform: uppercase;
+   word-spacing: 1px;
+}
+.testimonial_wrapper .why_para{
+   font-family: var(--third-font);
+   font-size: 15px;
+   font-weight: 300;
+   color: var(--text-dark-grey);
+}
+.banner_wrapper .banner-title{
+   font-family: var(--secondary-font);
+   font-size: 45px;
+   font-weight: 600;
+   color: var(--text-light);
+   line-height: 1;
+   text-transform: uppercase;
+}
+.banner-mod{
+   width: 100%;
+   height: auto;
+   min-height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+}
+@media (max-width:350px){
+   /* ---------for mobile view------- */
+}
